@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+body{
+    margin: 0px;
+}
+.header{
+    background-color: rgb(134, 3, 75);
+    height: 25px;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    max-width: 960px;
+    margin: 0px auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.nav-link{
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(70, 2, 70);
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@media ( max-width: 768px )
+{
+    header { 
+        max-width: 100dvh;}
+        nav 
+        {
+            max-width: 600px;
+            padding: 5px;
+            padding-top: 5px;
+        }
+        .nav-link{
+            font-size: 18px;
+            padding-left: 7px;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+}
+.main 
+{
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    min-height: 100dvh
+}
+.info 
+{
+    margin-top: 20px;
+    padding: 25px 40px;
+    
+    box-shadow: 72px 58px 14px -9px rgb(061,03,022,022.16)
+
+}
+.poza
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.centered 
+{
+    text-align: center;
+}
+.violet{
+    color: rgb(116, 8, 71);
+}
+.alb{
+    color: aliceblue;
+}
+.skills
+{
+    width: 300px;
+    font-size: 18px;
+    padding-right: 20px;
+    vertical-align: top;
+} 
+
+.explicatie   {
+vertical-align: top;
+}
+.despre{
+    margin-top: 0px;
+    font-size: 18px;
+    font-family:    "Playfair Display", serif;
+    text-align: left;
+}
+.galerie
+{
+    width: 100%;
+
+}
+.img-galerie
+
+{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+.item
+{
+    border-bottom: 2px solid rgb(112, 7, 46);
+    padding: 4px;
+    font-family:"Playfair Display", serif ;
+}
+.item span{
+    font-size: 15px;
+    padding-left: 10px;
+}
+footer{
+    text-align: center;
+    padding:25px ;
+    color: azure;
+    background-color: rgb(112, 7, 46);
+    font-size: 24px;
+}
+.tabel-contacte{
+    width: 100%;
+    height: 60vh;
+}
+.celula-formular{
+    width: 50%;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.text-input
+.intrebare{
+    width: 100%;
+    font-size: 15px;
+    padding: 4px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(112, 7, 46);
+    font-family: "Playfair Display", serif;
+    resize: none;
+}
+.intrebare{
+    height: 200px;
+}
+.transmite{
+    cursor: pointer;
+    background-color: rgb(112, 7, 46);
+    width: 80px;
+    margin-right: 5%;
+    float: right;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+border-color: azure;
+}
+.celula-harta iframe{
+    
+    border-radius: 5px
+}

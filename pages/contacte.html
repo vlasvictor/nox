@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Vlas Victor Contacte</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a class="nav-link" href="../index.html">Ober</a>
+            <a class="nav-link" href="../index.html#Experienta">Experienta</a>
+            <a class="nav-link" href="../index.html#Educatie">Educatie</a>
+            <a class="nav-link" href="contacte.html">Contacte</a>
+        </nav>
+    </div>
+    <div class="main">
+        <diV class="info">
+            <table class="tabel-Contacte">
+                <tr>
+                    <td class="celula-formular">
+                        <h3 class="centered violet"> Contacteazama</h3>
+                        <form id="formular" method="post" action="https://sheetdb.io/api/v1/ys2jxuwpk879o">
+                            <input type="text " name="data[Nume]" class="text-input" placeholder="Nume Prenume"><br>
+                            <input type="text" name="data[Email]" class="text-input" placeholder="Email"><br>
+                            <textarea name="" class="intrebare" id="" cols="50" rows="10"
+                                placeholder="scrie intrebarea ta"></textarea><br>
+                            <input type="submit" class="transmite" value="transmite">
+                        </form>
+                    </td>
+                    <td class="celula-harta">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2249.7279096070333!2d28.28482321677217!3d47.890089188161966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDUzJzI0LjIiTiAyOMKwMTcnMDguNSJF!5e0!3m2!1sru!2s!4v1713275724238!5m2!1sru!2s"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td>
+                </tr>
+            </table>
+
+        </diV>
+       
+    </div>
+    <div class="fb-comments" data-width="100%" data-href="http://tekwill.online/Silver Vengengece" data-numposts="5" data-order-by="reverse_time">
+
+    
+    <footer>
+            Vlas Victor
+        </footer>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+   
+    var form = document.getElementById('formular');
+            form.addEventListener("submit", e => {
+                e.preventDefault();
+                fetch(form.action, {
+                    method: "POST",
+                    body: new FormData(document.getElementById("formular")),
+                }).then(() => {
+                    alert("Multumesc !");
+                    form.reset();
+                });
+            });
+        </script>
+   </div>
+
+</html>
